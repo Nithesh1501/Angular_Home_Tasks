@@ -1,0 +1,8 @@
+<div class="card-body {{getBorderColor()}}">
+    <span class="name">
+        {{ user.firstName | fullName:user.lastName }}
+    </span>
+    <button type="button" class="btn btn-sm ml-auto m-2 {{ getButtonColor() }}" (click)="getId(user.id)">
+        {{ btnText }}
+    </button>
+</div>

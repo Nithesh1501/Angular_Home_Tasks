@@ -1,0 +1,15 @@
+:root {
+    --red: #df3a4a;
+    --green: #2daa4a;
+    --blue: #2d2daa;
+    --home-color: #f5f5f5;
+}
+
+body {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+app-users-list {
+    margin: 0 2rem;
+}

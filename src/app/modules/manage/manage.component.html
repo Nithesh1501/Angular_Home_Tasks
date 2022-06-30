@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-6">
+        <app-users-list [usersList]="allUsers" [btnText]="'Details'" (showUser)="showUser($event)"></app-users-list>
+    </div>
+    <div class="col-6" *ngIf="userPreview!=null">
+        <app-user-details [user]="userPreview"></app-user-details>
+    </div>
+</div>

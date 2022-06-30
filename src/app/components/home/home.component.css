@@ -1,0 +1,8 @@
+.home {
+    background-color: var(--home-color);
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+}

@@ -1,0 +1,3 @@
+<div *ngFor="let user of usersList">
+    <app-user [btnText]="btnText" [user]="user" (sendId)="sendId($event)"></app-user>
+</div>
