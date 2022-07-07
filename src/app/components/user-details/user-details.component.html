@@ -1,0 +1,20 @@
+<div class="userPreview">
+    <h4>{{user.firstName | fullName:user.lastName}}</h4>
+    <div class="status" appFontColor [isDeleted]="user.isDeleted">{{user.isDeleted | userStatus}}</div>
+    <div class="row">
+        <div class="col-6">Login Id</div>
+        <div class="col-6">{{user.login}}</div>
+    </div>
+    <div class="row">
+        <div class="col-6">First Name</div>
+        <div class="col-6">{{user.firstName}}</div>
+    </div>
+    <div class="row">
+        <div class="col-6">Last Name</div>
+        <div class="col-6">{{user.lastName}}</div>
+    </div>
+    <div class="row">
+        <div class="col-6">Age</div>
+        <div class="col-6">{{user.age}}</div>
+    </div>
+</div>

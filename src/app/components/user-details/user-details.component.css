@@ -1,0 +1,18 @@
+.status {
+    font-size: .7rem;
+}
+
+.status.Active {
+    color: var(--green);
+}
+
+.status.Deleted {
+    color: var(--red);
+}
+
+.userPreview {
+    border-radius: .5rem;
+    border: 1px solid;
+    padding: 1rem;
+    margin: 1.5rem;
+}
