@@ -20,6 +20,5 @@ import { User } from 'src/models/user';
 })
 export class ManageModule {
   constructor() {
-    console.log("ManageComponent constructor component");
   }
 }

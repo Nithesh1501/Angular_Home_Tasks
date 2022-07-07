@@ -1,4 +1,4 @@
-import { ElementRef, SimpleChange } from '@angular/core';
+import { ElementRef } from '@angular/core';
 import { FontColorDirective } from './font-color.directive';
 
 describe('FontColorDirective', () => {

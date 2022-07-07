@@ -20,6 +20,5 @@ import { UsersService } from 'src/app/services/users.service';
 })
 export class ActiveModule {
   constructor() {
-    console.log("ActiveModule constructor");
   }
 }
